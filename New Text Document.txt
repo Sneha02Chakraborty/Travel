@@ -1,0 +1,183 @@
+I'm Sneha, originally from Kolkata, India. My academic journey led me to complete my B.A in Journalism and Mass Communication Honours. Passionate about effective communication and storytelling, I've since ventured into the dynamic world of web design. Blending my background in journalism with my newfound skills in web design, I strive to create engaging digital experiences that resonate with audiences. With a penchant for creativity and a commitment to user-centric design, I'm excited to continue evolving in this ever-changing field.
+<nav class="navbar navbar-expand-lg">
+        <div class="navbar-brand">
+          <h2><span>T</span>ravel</h2>
+        </div>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resort</a>
+          </li>
+        <li class="nav-item2">
+            <a class="nav-link" href="#">Dropdown</a>
+            <div class="d-menu">
+              <a href="">Link</a>
+              <a href="">Link2</a>
+              <a href="">Link3</a>
+              <a href="">Link4</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="header-btn"><a href=""><button>BOOK NOW</button></a></div>
+      </nav>
+      <div class="ban-title">
+        <h1>LET'S GO
+          <BR> WITH US</BR>
+        </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, adipisci voluptatibus vitae est beatae.
+          </p>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+#header {
+    width: 100%;
+    height: 800px;
+    background: url(../travel-image/pexels-ian-turnell-709552\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+    align-items: center;
+    justify-content: center;
+    
+}
+@keyframes slide{
+    25%{
+        background:  url(../travel-image/pexels-ian-turnell-709552\ \(1\).jpg);
+        background-size: cover;
+        background-position: center;
+        
+
+    }
+    50%{
+        background: url(../travel-image/pexels-lisa-fotios-1107717.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background: url(../travel-image/pexels-tobi-675764.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background: url(../travel-image/pexels-thorsten-technoman-338504.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+.container {
+    width: 1140px;
+    margin: auto;
+padding-bottom: 20px;
+}
+
+.navbar-brand h2 {
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.navbar-brand h2 span {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #39a039d5;
+    text-shadow: 2px 2px 5px #688654b4;
+}
+
+.navbar-nav {
+    align-items: center;
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.nav-item2 {
+    position: relative;
+}
+
+.d-menu {
+    position: absolute;
+    left: 35px;
+    top: 40px;
+    background-color: #05312bb4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s ease-in;
+}
+
+.d-menu.d-show {
+    top: 45px;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.header-btn a button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #688654b4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-btn a button:hover {
+    background: transparent;
+    border-radius: 50px;
+    transition: .4s;
+}
+.ban-container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ban-title {
+    padding-top: 150px;
+}
+
+.ban-title h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+
+    font-weight: bold;
+    letter-spacing: 10px;
+
+}
+
+.ban-title p {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem !important;
+    color: #fff;
+}

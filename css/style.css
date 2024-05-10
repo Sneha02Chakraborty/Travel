@@ -1,0 +1,963 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+   
+}
+#header{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+}
+.navbar-expand-lg .navbar-nav{
+    margin: auto;
+}
+
+
+.nav-link{
+    color: #000000 !important;
+    font-weight: 600;
+  margin-left: 20px;
+   font-size: 20px;
+   transition: all .5s ease-in-out;
+   font-family: "Sedan", serif;
+}
+.nav-link:hover{
+    color: #39a039d5 !important;
+}
+.navbar-brand h2 {
+    font-size: 25px;
+    color: #000000;
+    font-family: "Sedan", serif; 
+}
+
+.navbar-brand h2 span {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #39a039d5;
+    text-shadow: 2px 2px 5px #688654b4;
+}
+
+.header-btn a button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #688654b4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Sedan", serif;
+}
+
+.header-btn a button:hover {
+    background: #0b1a01b4;
+    border-radius: 50px;
+    transition: .4s;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    
+}
+.owl-carousel .owl-theme{
+    position: relative;
+}
+.owl-theme .item .ban-text{
+    width: 50%;
+  height: auto;
+    position: fixed;
+    background-color: transparent;
+    top: 100px;
+    left: 360px;
+  color: #000000;
+  padding: 10px 50px;
+}
+.head-img img{
+    height: 600px;
+
+}
+.ban-text h1{
+    margin: 20px auto;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Sedan", serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.ban-text p{
+    margin: 30px auto;
+    font-size: 20px !important;
+    color: #fff;
+}
+
+
+.clr {
+    clear: both;
+}
+#destination {
+    width: 100%;
+    height: auto;
+padding: 10px 50px;
+}
+
+
+
+.des-title {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.des-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.des-title p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-shadow: 2px 2px 5px #d1cbba;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.des-content {
+   padding: 30px 30px;
+}
+
+.des-box {
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all .5s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px auto;
+}
+.des-box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.des-box.des-show {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: .8s ease !important;
+}
+
+
+
+.des-box img {
+    transition: all .4s;
+   padding: 20px 20px;
+}
+
+.des-img img:hover {
+    transform: scale(1.1);
+    border-radius: 100px;
+}
+
+
+
+.des-text {
+    padding: 2px 16px;
+    text-align: center;
+    color: #301a05;
+}
+
+#pacages {
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background-color: #fff;
+}
+
+
+
+.pac-title {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.pac-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.pac-title p {
+    font-size: 16px;
+
+    color: #000000;
+    text-shadow: 2px 2px 5px #d1cbba;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.pac-card{
+    position: relative;
+    margin: 20px auto;
+    
+}
+
+.pac-card .pac-text{
+    position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+ 
+}
+.pac-card img{
+   width: 100%;
+object-fit: cover;
+aspect-ratio: 16/9;
+}
+  
+#about {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(336deg, rgba(220, 226, 187, 0.8), rgba(190, 188, 24, 0) 70.71%) , url(../travel-image/pexels-lisa-fotios-1107717.jpg);
+    padding: 0 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.about-title {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.about-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.about-title p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-shadow: 2px 2px 5px #d1cbba;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.about-content{
+    padding: 30px 30px;
+}
+.ab-image img{
+    transform: translateY(120px);
+    opacity: 0;
+    
+}
+.ab-image .ab-imageshow{
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: .8s ease !important;
+}
+.ab-image img{
+    width: 100%;
+    object-fit: cover;
+   aspect-ratio: 16/9;
+}
+.ab-text  ul li{
+    transform: translateY(120px);
+    opacity: 0;
+}
+.ab-text .ab-textshow{
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: .8s ease !important;
+}
+.ab-text h4{
+    text-align: center;
+    font-size: 40px;
+}
+.ab-text ul li{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+   margin: 20px 20px;
+}
+.ab-text ul li i{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #301a05;
+    text-align: center;
+}
+
+#resort {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+
+
+.res-title {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.res-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.res-title p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    text-shadow: 2px 2px 5px #d1cbba;
+}
+
+.res-content {
+    padding: 30px 30px;
+    margin: auto;
+}
+
+.res-img {
+    width: 350px;
+    height: 250px;
+    background: url(../travel-image/pexels-thanhhoa-tran-1488327.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+    animation: slide2 10s infinite;
+    padding-top: 20px;
+}
+
+
+
+@keyframes slide2 {
+    25% {
+        background: url(../travel-image/pexels-thanhhoa-tran-1488327.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    50% {
+        background: url(../travel-image/pexels-rachel-claire-4825701.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    75% {
+        background: url(../travel-image/pexels-asad-photo-maldives-2549018.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background: url(../travel-image/pexels-thorsten-technoman-338504.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.res-icon {
+    display: flex;
+}
+
+.res-text{
+    margin: 20px auto;
+}
+.res-text ul li a {
+   
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #301a05;
+    padding: 5px 0;
+
+}
+
+.res-text ul li a:hover {
+    background-color: #917529;
+    color: #fff;
+    padding: 7px 20px;
+    transition: .7s ease-in;
+   
+}
+
+.res-text ul li {
+    margin-top: 30px;
+}
+.res-text2{
+    margin: 20px auto;
+}
+.res-text2 h5 {
+    color: #ac8d56;
+}
+
+.res-text2 h2 {
+    color: #fff;
+}
+
+.res-text2 p {
+    color: #301a05;
+}
+
+.res-icon h3 {
+    font-size: 16px;
+
+    color: #301a05;
+
+}
+
+.res-icon i {
+    font-size: 30px;
+    color: #917529;
+    text-align: center;
+}
+
+.res-btn {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.res-btn button {
+    margin: 20px auto;
+    padding: 15px 25px;
+    border: none;
+    background-color: #301a05;
+    color: #d1cbba;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.res-btn a button {
+    margin-left: 20px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #bba361;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.res-btn a button:hover {
+    background-color: #301a05;
+    color: #d1cbba;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+#facility {
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: url(../travel-image/pexels-asad-photo-maldives-2549018.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+.face-title {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.face-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.face-title p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    text-shadow: 2px 2px 5px #d1cbba;
+}
+
+.face-content {
+    padding-top: 100px;
+  
+}
+
+.face-box {
+    background-color: #688654b4;
+    text-align: center;
+    transform: translateY(200px);
+    opacity: 0;
+}
+
+.face-box i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.face-box img {
+    width: 250px;
+    height: 250px;
+    padding: 10px 10px;
+}
+
+.face-menu ul li {
+    margin: 10px 10px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mid-face-box img {
+    
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    
+    
+}
+
+
+.face-box.show-face {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: .8s ease !important;
+    margin:  auto;
+}
+
+#offer {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgb(56, 54, 54)), url(../travel-image/pexels-rachel-claire-4825701.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.off-title {
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.off-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.off-title p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    text-shadow: 2px 2px 5px #d1cbba;
+}
+
+.off-content {
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.off-image {
+    position: relative;
+    overflow: hidden;
+margin: 20px auto;
+}
+
+.off-image img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    transition: .6s;
+}
+
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    opacity: 1;
+    transition: all .5s;
+    text-align: center;
+}
+
+.off-image:hover .image-overlay {
+    
+}
+
+.off-image:hover img {
+    transform: scale(1.1);
+}
+
+.image-text {
+   color: #fff;
+   margin: 30px auto;
+   width: 100%;
+   text-align: center;
+}
+
+.off-button a button {
+    padding: 3px 6px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#opinion {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+
+
+.opi-title {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.opi-title h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px #a5966c;
+    font-family: "Sedan", serif;
+}
+
+.opi-title p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    text-shadow: 2px 2px 5px #d1cbba;
+}
+.opi-content{
+    padding-top: 80px;
+    display: grid;
+    place-content: center;
+
+}
+.opi-slider{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.496), black), url(../travel-image/pexels-rachel-claire-4825701.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+}
+.opi-box{
+   width: inherit;
+   height: 250px;
+ margin: auto;
+    position: absolute;
+    top: 0;
+    }
+
+.opi-image{
+    width: 200px;
+    position: absolute;
+    top: 35px;
+    left: 4%;
+    }
+    .opi-image img{
+        width: 200px;
+        height: 170px;
+        border-radius: 50%;
+    }
+    .opi-image-text{
+        position: absolute;
+        bottom: -80px;
+    }
+    .opi-image-text p{
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+.opi-text{
+    width: 460px;
+    position: absolute;
+   top: 50px;
+   left: 40%;
+}
+.opi-text p{
+    color: #fff;
+    font-size: 16px;
+}
+.opi-icon{
+    position: absolute;
+   bottom: 70px;
+   left: 80%;
+}
+.opi-icon i{
+    color: #d5d816 !important;
+}
+
+.opi-btngrp{
+position: absolute;
+left: 50%;
+bottom: 10px;
+z-index: 999;
+transform: translateX(-50%);
+display: flex;
+justify-content: space-between;
+gap: 30px;
+display: none;
+}
+.opi-btngrp button{
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+#app{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+
+}
+
+.app-content{
+    padding: 30px 30px;
+    display: flex;
+justify-content: space-between;
+position: relative;
+}
+    .app-content img{
+width: 200px;
+cursor: pointer;
+transition: all .5s;
+}
+.app-content img:hover{
+    color: #817f7c;
+    transform: translateY(-10px);
+    }
+
+.app-text{
+padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .app-text p{
+        font-size: 22px;
+        color: #1d1f20;
+    }
+    .app-text p span{
+        color: #000000 !important;
+    }
+    .app-btn button{
+        padding: 3px 5px;
+        background-color: #202324;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+   
+
+    #footer{
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+        background-image: url(../travel-image/pexels-sindre-fs-1144176.jpg);
+       }
+    
+     .footer-title {
+        padding-top: 170px;
+        text-align: center;
+    
+    }
+    
+    .footer-title h1 {
+        font-size: 3rem;
+        color: #000000;
+        text-shadow: 2px 2px 5px #a5966c;
+        font-family: "Sedan", serif;
+    }
+   .form-content{
+   padding: 20px 20px;
+    margin: auto;
+    
+   }
+   .footer-down h5{
+    padding-top: 50px;
+    text-align: center;
+    color: #000000;
+   }
+
+   .footer-down h6{
+color: #000000;
+text-align: center;
+   }
+
+   .footer-down h4{
+font-size: 16px !important;
+color: #000000;
+text-align: center;
+   }
+
+
+
+
+
+   @media(max-width: 768px){
+    .header-btn{
+        display: none;
+    }
+    #banner{
+        padding: 0;
+    }
+    .owl-theme .item .ban-text{
+        width: 100%;
+        left: 65px;
+    }
+    #destination{
+        padding: 0;
+    }
+    .des-title h1{
+        font-size: 30px;
+    }
+    .des-title p{
+        font-size: 16px;
+    }
+    #about{
+        padding: 0;
+    }
+    .about-title h1{
+        font-size: 30px;
+    }
+    .about-title p{
+        font-size: 16px;
+    }
+    .ab-text h4{
+        text-align: center;
+        font-size: 25px;
+    }
+    .ab-text ul li{
+        font-size: 20px;
+    }
+    #pacages{
+        padding: 0;
+    }
+    .pac-title h1{
+        font-size: 30px;
+    }
+    #facility{
+        padding: 0;
+    }
+    .face-title h1{
+        font-size: 30px;
+    }
+    .mid-face-box img{
+        animation: none;
+    }
+    .face-title p{
+        font-size: 16px;
+    }
+    #resort{
+        padding: 0;
+    }
+    .res-title h1{
+        font-size: 30px;
+    }
+    .res-title p{
+        font-size: 16px;
+    }
+    .res-text ul li{
+        text-align: center;
+    }
+    .res-text2{
+        text-align: center;
+    }
+    .res-icon{
+        justify-content: space-between;
+    }
+    #offer{
+        padding: 0;
+    }
+    .off-title h1{
+        font-size: 30px;
+    }
+    .off-title p{
+        font-size: 16px;
+    }
+    .image-overlay{
+        top: 114px;
+        left: 216px;
+    }
+    #opinion{
+        display: none;
+    }
+    #app{
+        display: none;
+    }
+    .footer-title h1{
+        font-size: 30px;
+    }
+   }
+
+
+
+
+   @media(max-width: 576px){
+    .owl-theme .item .ban-text{
+      
+        left: 20px;
+    }
+    .ban-text h1{
+        font-size: 30px;
+    }
+
+    .image-overlay{
+       
+        top: 20px;
+        left: 150px;
+    }
+   }
+   @media(max-width: 420px){
+    .image-overlay{
+        top: -24px;
+        left: 80px;
+    }
+    .image-text h2{
+        font-size: 16px !important;
+    }
+   }
